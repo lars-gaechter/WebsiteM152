@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  </head>
+  <body>
+  <div class="container">
+  <h1>Title</h1>
+  <div class="mySlides">
+  <img class="dot" src="img/1.jpg">
+  </div>
+  <div class="mySlides">
+  <img class="dot" src="img/2.jpg">
+  </div>
+  <div class="mySlides">
+  <img class="dot" src="img/3.jpg">
+  </div>
+    <div class="mySlides">
+  <img class="dot" src="img/4.jpg">
+  </div>
+  
+
+
+
+
+ <div class="card">
+ <h4>Moduljournal</h4>
+   <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+		    <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+		    <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+		    <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+ </div>
+  <div class="card">
+   <h4>Aufgaben</h4>
+   <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+ </div>
+  <div class="card">
+   <h4>Eigenes Projekt</h4>
+   <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+ </div>
+   <div class="card">
+   <h4>Gruppen Projekt</h4>
+   <button class="button">Button</button>
+     <button class="button">Button</button>
+	   <button class="button">Button</button>
+	     <button class="button">Button</button>
+ </div>
+  
+  </div>
+  
+  <footer class="footer">
+      <div class="container">
+        <span>Lars</span>
+      </div>
+    </footer>
+	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+  </body>
+</html>
