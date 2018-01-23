@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Tag 4</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="../image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  </head>
+  <body>
+  <div class="container">
+  <a class="title" href="../index.html">Title</a>
+ <div class="card">
+ <h4>Tagesjournal 17.01.2018</h4>
+   <p>
+<h3>Notizen</h3>
+<p>
+Als Einstieg haben wir eine Aufgabe einen Slider zu erstellen mit entsprechenden Angaben, wie er sich verhalten sollte.
+
+Alle js einbinden
+<script src="js/responsiveslides.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+Speed 500
+Random wechselnde Bilder
+Pause beim hovern
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({           
+  speed: 500,            
+  timeout: 2000,          
+  random: true,          
+  pause: true,           
+  namespace: "rslides" 
+  });
+  });
+</script>
+
+Klasse im CSS stylen
+		<style>
+		.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+		</style>
+
+Die Quelle und die Klasse für den Slide in html einbinden.
+<ul class="rslides">
+		      <li><img src="img/1.jpg" alt="slider1"></li>
+		      <li><img src="img/2.jpg" alt="slider2"></li>
+		      <li><img src="img/3.jpg" alt="slider3"></li>
+		 </ul>
+		 
+
+Videos und Audios in die Seite eibinden.
+
+</p>
+<h3>Selbständig verfasster Text mit neuen Erkenntnissen der Unterrichtseinheit (pro 4 Lektionen)</h3>
+<p>
+Als Einstieg haben wir eine Aufgabe einen Slider zu erstellen mit entsprechenden Angaben, wie er sich verhalten sollte.
+</p>
+<h3>Abgleich mit den Handlungskompetenzen, welche habe ich heute erreicht (muss ersichtlich sein)</h3>
+<p>
+Noch nichts!
+</p>
+<h3>Dokumentation fachlicher Inhalte Erkennen wesentlicher Elemente des Moduls und das Festhalten in korrekter Fachsprache</h3>
+<p>
+Ich weiss nun wie man einen Slider mit oder ohne Framework in eine Webseite einbinden kann.
+</p>
+<h3>Festhalten von Erkenntnissen/Erfahrungen auf metakognitiver Ebene inkl. Selbstreflexion miterkennen von eigenen Stärken und Schwächen</h3>
+<p>
+Ich habe den heutigen Stoff gut verstanden. Er war mir aber auch nicht neu und sehr einfach zu verstehen.
+</p>
+ </div>
+ <div class="card">
+ <h4>Tagesjournal 17.01.2018</h4>
+   <p>
+<h3>Notizen</h3>
+<p>
+Nichts
+</p>
+<h3>Selbständig verfasster Text mit neuen Erkenntnissen der Unterrichtseinheit (pro 4 Lektionen)</h3>
+<p>
+Über das Wochende und die Woche hinweg habe ich an meinem Lernvideo gearbeitet. Mit Adobe After Effects habe ich das intro mit einem auseinaderfallenden text erzeugt und mit FL Studio den Sound beim Intro und Outro, den visuellen effekt beim Outro und das gesamte zuschneiden habe ich mit Adobe Premiere Pro erstellt und das gesamte Video habe ich mit Open BrodCast Software aufgenommen.
+Habe begonnen meine Webseite zu erstellen mit einem Respnsive Design und einem Slider.
+</p>
+<h3>Abgleich mit den Handlungskompetenzen, welche habe ich heute erreicht (muss ersichtlich sein)</h3>
+Noch nichts!
+</p>
+<h3>Dokumentation fachlicher Inhalte Erkennen wesentlicher Elemente des Moduls und das Festhalten in korrekter Fachsprache</h3>
+<p>
+Ich weiss nun, wie man grob mir Adobe Programme umgehen kann und wie man ein Video zuschneidet und vertont.
+</p>
+<h3>Festhalten von Erkenntnissen/Erfahrungen auf metakognitiver Ebene inkl. Selbstreflexion miterkennen von eigenen Stärken und Schwächen</h3>
+<p>
+Ich habe den heutigen Stoff gut verstanden. Er war aber auch interessant und nahm etwas Zeit in Anspruch.
+</p>
+ </div>
+  </div>
+  <footer class="footer">
+      <div class="container">
+        <span>Lars</span>
+      </div>
+    </footer>
+  </body>
+</html>
