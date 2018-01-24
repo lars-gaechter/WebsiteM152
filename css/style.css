@@ -4,13 +4,6 @@
   ##Version		V1
 */
 
-/* 
-  ##Gerät = Desktops
-  ##Bildschirm = 1281px bis höhere Auflösung
-*/
-
-@media (min-width: 1281px) {
-  
 body {
     font-family: Arial;
     background: #000;
@@ -54,7 +47,7 @@ img{
 .title{
 	text-decoration: none;
 	color: lightblue;
-	align: left;
+	font-size: 300%;
 }
 
 span{
@@ -73,85 +66,42 @@ h3 {
 }
 
 /* 
+  ##Gerät = Desktops
+  ##Bildschirm = 1281px bis höhere Auflösung
+*/
+
+@media (min-width: 1281px) {
+
+.container{
+	width: 80%;
+	    margin-left: auto;
+    margin-right: auto;
+} 
+  
+}
+
+/* 
   ##Gerät = Laptops, Desktops
-  ##Bildschirm = B/w 1025px bis 1280px
+  ##Bildschirm =  1025px bis 1280px
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
- body {
-    font-family: Arial;
-    background: #000;
-}
 
 .container{
 	width: 85%;
 	margin-left: auto;
     margin-right: auto;
 	background: #000;
-}
-
-img{
-	width:100%
-}
-
-.button {
-    background-color: #0011ff;
-    border: none;
-    color: white;
-    padding: 2.5% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-    margin: 1%;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #727cff;
-}
-
-.card {
-    background-color: lightblue;
-    width: 95%;
-    padding: 2.5%;
-	margin: 2.5% 0% 2.5% 0%;
-	border: 1px solid lightblue;
-}
-
-.title{
-	text-decoration: none;
-	color: lightblue;
-	align: left;
-}
-
-span{
-	color: lightblue;
-	align: left;
-}
-
-h4 {
-    font-size: 100%;
-}
-
-h3 {
-    font-size: 80%;
-}    
+} 
   
 }
 
 /* 
   ##Gerät = Tablets, Ipads (portrait)
-  ##Bildschirm = B/w 768px to 1024px
+  ##Bildschirm = 768px bis 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
- body {
-    font-family: Arial;
-    background: #000;
-}
 
 .container{
 	width: 90%;
@@ -160,189 +110,35 @@ h3 {
 	background: #000;
 }
 
-img{
-	width:100%
-}
-
-.button {
-    background-color: #0011ff;
-    border: none;
-    color: white;
-    padding: 2.5% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-    margin: 1%;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #727cff;
-}
-
-.card {
-    background-color: lightblue;
-    width: 95%;
-    padding: 2.5%;
-	margin: 2.5% 0% 2.5% 0%;
-	border: 1px solid lightblue;
-}
-
-.title{
-	text-decoration: none;
-	color: lightblue;
-	align: left;
-}
-
-span{
-	color: lightblue;
-	align: left;
-}
-
-h4 {
-    font-size: 100%;
-}
-
-h3 {
-    font-size: 80%;
-}    
-  
 }
 
 /* 
-  ##Gerät = Most of the Smartphones Mobiles (Portrait)
-  ##Bildschirm = B/w 320px to 479px
+  ##Gerät = Die meisten Smartphones Mobiles (Portrait)
+  ##Bildschirm = 320px bis 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-body {
-    font-family: Arial;
-    background: #000;
-}
-
 .container{
 	width: 100%;
 	margin-left: auto;
     margin-right: auto;
 	background: #000;
 }
-
-img{
-	width:100%
-}
-
-.button {
-    background-color: #0011ff;
-    border: none;
-    color: white;
-    padding: 2.5% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-    margin: 1%;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #727cff;
-}
-
-.card {
-    background-color: lightblue;
-    width: 95%;
-    padding: 2.5%;
-	margin: 2.5% 0% 2.5% 0%;
-	border: 1px solid lightblue;
-}
-
-.title{
-	text-decoration: none;
-	color: lightblue;
-	align: left;
-}
-
-span{
-	color: lightblue;
-	align: left;
-}
-
-h4 {
-    font-size: 100%;
-}
-
-h3 {
-    font-size: 80%;
-}    
   
 }
 
 /* 
-
+  #Minimal 480px und maximal 767px
 */
 
 @media (min-width: 480px) and (max-width: 767px) {
-
-body {
-    font-family: Arial;
-    background: #000;
-}
 
 .container{
 	width: 95%;
 	margin-left: auto;
     margin-right: auto;
 	background: #000;
-}
-
-img{
-	width:100%
-}
-
-.button {
-    background-color: #0011ff;
-    border: none;
-    color: white;
-    padding: 2.5% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 100%;
-    margin: 1%;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #727cff;
-}
-
-.card {
-    background-color: lightblue;
-    width: 95%;
-    padding: 2.5%;
-	margin: 2.5% 0% 2.5% 0%;
-	border: 1px solid lightblue;
-}
-
-.title{
-	text-decoration: none;
-	color: lightblue;
-	align: left;
-}
-
-span{
-	color: lightblue;
-	align: left;
-}
-
-h4 {
-    font-size: 100%;
-}
-
-h3 {
-    font-size: 80%;
-}    
+} 
   
 }
